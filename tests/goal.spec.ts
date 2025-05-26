@@ -8,4 +8,5 @@ test('Navigate to goal.com', async ({ page }) => {
     await page.fill("//input[@name='email']", "pezokeagu@gmail.com");
     await page.fill("//input[@name='password']", "Pezokeagu@123");
     await page.locator("//button[text()='Log in']").click();
+    console.log("Login successful");
 })
